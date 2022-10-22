@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/style.css 
+</head>
+<body>
+ 
+<div class="navbar">
+    <nav>
+        <ul>
+            <li class="list"><a href="/">Home</a></li>
+            <li class="list"><a href="/">About</a></li>
+            <li class="list"><button id="contact">Delivery</button></li>
+        </ul>
+    </nav>
+</div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="container">
+        <div class="container-form">
+            <h2 style="color: blue" id="h2-hide">
+                |Welcome to BURP Order now get <br> discount upto 30% 
+            </h2>
+        <form action="/" method="post" id="order">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="more" cols="10" rows="10" placeholder="Have you orderd anything from us"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+
+        
+    </div>
+    </div>
+
+    <script src="../static/index.js"></script>
+</body>
+</html>
